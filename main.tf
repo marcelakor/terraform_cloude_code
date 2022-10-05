@@ -20,7 +20,7 @@ resource "aws_instance" "sunch" {
   }
 }
 
-resource "aws_s3_bucket" "new_bucket" {
+resource "aws_s3_bucket" "cou_bucket" {
   bucket = "demo-github-action-tf-medium"
 
   object_lock_enabled = false
