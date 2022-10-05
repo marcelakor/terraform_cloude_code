@@ -12,7 +12,7 @@ provider "aws" {
   region = "us-east-1" # define region as per your account
 }
 resource "aws_instance" "sunch" {
-  ami           = ami-0ee23bfc74a881de5
+  ami           = "ami-0ee23bfc74a881de5"
   instance_type = "t2.micro"
 
   tags = {
