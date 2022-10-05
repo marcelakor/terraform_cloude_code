@@ -48,6 +48,9 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
+env:
+  CI: true
+  TERRAFORM_TOKEN: "${{ secrets.TF_API_TOKEN }}"
 
 permissions:
   contents: read
