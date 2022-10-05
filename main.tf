@@ -27,7 +27,7 @@ resource "aws_instance" "sunch" {
 }
 
 resource "aws_s3_bucket" "goldd" {
-  bucket = "demo-action-tf-medium"
+  bucket = "dem-action-tf-medium"
 
   object_lock_enabled = false
 
