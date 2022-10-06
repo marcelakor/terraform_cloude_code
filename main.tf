@@ -19,6 +19,14 @@ resource "aws_instance" "sunch" {
     Name = "HelloWorld"
   }
 }
+resource "aws_instance" "suncheee" {
+  ami           = "ami-0ee23bfc74a881de5"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "HelloWorld"
+  }
+}
 
 resource "aws_s3_bucket" "goldd" {
   bucket = "dem-action-tf-medium"
