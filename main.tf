@@ -19,7 +19,7 @@ resource "aws_instance" "sunch" {
     Name = "HelloWorld"
   }
 }
-resource "aws_instance" "suncheee" {
+resource "aws_instance" "jjakor" {
   ami           = "ami-0ee23bfc74a881de5"
   instance_type = "t2.micro"
 
